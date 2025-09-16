@@ -41,6 +41,8 @@ pub fn build(b: *std.Build) void {
 
     b.installArtifact(lib);
 
+    unit_tests.root_module.addImport("xml", lib_module);
+
     const run_unit_tests = b.addRunArtifact(unit_tests);
     run_unit_tests.has_side_effects = true;
 
