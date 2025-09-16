@@ -1,0 +1,14 @@
+.{
+    .name = .zig_xml,
+    .minimum_zig_version = "0.14.0",
+    .version = "1.0.0",
+    .fingerprint = 0x8c46bb51397d2cce,
+    .paths = .{
+        "Parser.zig",
+        "build.zig",
+        "build.zig.zon",
+        "LICENSE",
+        "licenses.txt",
+        "mod.zig",
+    },
+}
